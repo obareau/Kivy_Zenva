@@ -2,7 +2,7 @@ from kivy.app import App
 from kivy.uix.button import Button
 # kv file MUST be named as the name of the class in lowercase minus "App"
 
-Class FunkyButton(Button):
+class FunkyButton(Button):
     pass
 
 class LanguageLearnerApp(App): # A  subclass of type XxxXxxAPP is mandatory with Kivy
