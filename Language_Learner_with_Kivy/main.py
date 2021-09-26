@@ -4,8 +4,9 @@ from kivy.uix.button import Button
 class LanguageLearnerApp(App): # A  subclass of type XxxXxxAPP is mandatory with Kivy
     def build(self): 
         return Button(
-            text="Hello World"
-            pos=(50, 50)) # We create a widget -- positioning in kivy start from bottom left !!!
+            text="Hello World",
+            pos=(50,50)
+            ) # We create a widget -- positioning in kivy start from bottom left !!!
 
 
 if __name__ == '__main__':
