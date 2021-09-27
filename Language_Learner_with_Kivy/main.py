@@ -15,7 +15,7 @@ class LanguageLearnerApp(App): # A  subclass of type XxxXxxAPP is mandatory with
         return FunkyButton(
             pos=(100,100),
             size_hint=(None,None ), # Responsive design !!!
-            size=(100,100) #size seems to have benn modified from version 1,11,1 
+            size=(500,500) #size seems to have benn modified from version 1,11,1 
             ) # We create a widget -- positioning in kivy start from bottom left !!!
 
 
